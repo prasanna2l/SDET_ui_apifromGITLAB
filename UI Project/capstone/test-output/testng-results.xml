@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T19:56:28 IST" name="Default suite" finished-at="2022-07-18T20:00:44 IST" duration-ms="255759">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-18T19:56:28 IST" name="Default test" finished-at="2022-07-18T20:00:44 IST" duration-ms="255759">
+      <class name="runner.testRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:56:28 IST" name="setUpClass" finished-at="2022-07-18T19:56:29 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:56:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:56:55 IST" duration-ms="26392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for User Sign up"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:56:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:57:09 IST" duration-ms="14147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for User Log in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:57:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:57:24 IST" duration-ms="14357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for User Log in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:57:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:57:37 IST" duration-ms="13831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation of contact option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:57:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:57:53 IST" duration-ms="15990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for About us option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:57:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:58:07 IST" duration-ms="13380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for Title checking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE1]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:58:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:58:24 IST" duration-ms="16836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for product inspecting"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:58:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:58:40 IST" duration-ms="16485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for phone product Add to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:58:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:58:57 IST" duration-ms="16330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for Laptop product Adding to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:58:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T19:59:33 IST" duration-ms="36884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for Moniter product Adding to Cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T19:59:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T20:00:23 IST" duration-ms="49977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for Placing Order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T20:00:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-18T20:00:44 IST" duration-ms="20606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Automation for Log out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[UI Automation Testing for Demoblaze store PAGE2]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.testRunner@1d9b7cce]" started-at="2022-07-18T20:00:44 IST" name="tearDownClass" finished-at="2022-07-18T20:00:44 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.testRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

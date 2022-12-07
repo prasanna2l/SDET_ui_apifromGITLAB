@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T01:45:03 IST" name="Default suite" finished-at="2022-07-18T01:45:08 IST" duration-ms="5029">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T01:45:03 IST" name="Default test" finished-at="2022-07-18T01:45:08 IST" duration-ms="5029">
+      <class name="musixapp_crud.ReadAll_musix">
+        <test-method signature="get_all_method()[pri:0, instance:musixapp_crud.ReadAll_musix@6aba2b86]" started-at="2022-07-18T01:45:03 IST" name="get_all_method" finished-at="2022-07-18T01:45:05 IST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_method -->
+      </class> <!-- musixapp_crud.ReadAll_musix -->
+      <class name="musixapp_crud.Read_musix">
+        <test-method signature="get_method()[pri:0, instance:musixapp_crud.Read_musix@694abbdc]" started-at="2022-07-18T01:45:05 IST" name="get_method" finished-at="2022-07-18T01:45:05 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_method -->
+      </class> <!-- musixapp_crud.Read_musix -->
+      <class name="musixapp_crud.Delete_musix">
+        <test-method signature="delete_method()[pri:0, instance:musixapp_crud.Delete_musix@2e005c4b]" started-at="2022-07-18T01:45:05 IST" name="delete_method" finished-at="2022-07-18T01:45:08 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_method -->
+      </class> <!-- musixapp_crud.Delete_musix -->
+      <class name="musixapp_crud.Update_musix">
+        <test-method signature="put_method()[pri:0, instance:musixapp_crud.Update_musix@4567f35d]" started-at="2022-07-18T01:45:08 IST" name="put_method" finished-at="2022-07-18T01:45:08 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_method -->
+      </class> <!-- musixapp_crud.Update_musix -->
+      <class name="musixapp_crud.Create_musix">
+        <test-method signature="post_method()[pri:0, instance:musixapp_crud.Create_musix@5ffead27]" started-at="2022-07-18T01:45:08 IST" name="post_method" finished-at="2022-07-18T01:45:08 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_method -->
+      </class> <!-- musixapp_crud.Create_musix -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
