@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="demoBlazeTest-google(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="runner.testRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.testRunner -->
+    </classes>
+  </test> <!-- demoBlazeTest-google(failed) -->
+  <test thread-count="5" name="demoBlazeTest-microsoft(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="runner.testRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.testRunner -->
+    </classes>
+  </test> <!-- demoBlazeTest-microsoft(failed) -->
+</suite> <!-- Failed suite [Test] -->
